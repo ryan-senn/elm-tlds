@@ -1,4 +1,4 @@
-# Readability in Elm
+# TLDs in Elm
 
 This module exposes the list of valid TLDs as defined by iana.org here: [https://data.iana.org/TLD/tlds-alpha-by-domain.txt](https://data.iana.org/TLD/tlds-alpha-by-domain.txt).
 

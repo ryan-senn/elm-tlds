@@ -25,6 +25,15 @@ const req = https.request(options, res => {
         const content =
             `module TLDs exposing (list)
 
+{-| iana.org list of Top Level Domains (TLDs). Generated with /build/index.js. See README.md for more info.
+
+@docs list
+
+-}
+
+
+{-| List of TLDs.
+-}
 list : List String
 list =
     [${lines.map(tld => ' "' + tld.toLowerCase() + '"')} ]
